@@ -23,7 +23,6 @@ export default createStore({
     async getData({commit}){
       let fetchInfo = await fetch('https://itz-marcus.github.io/First_API/Data%20for%20deja-vue/data.json')
       let data = await fetchInfo.json()
-      console.log(data);
       let {cars,gaming_consoles,friends} = data
       commit('setCars',cars)
       commit('setGamingConsoles',gaming_consoles)

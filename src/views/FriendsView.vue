@@ -3,11 +3,11 @@
         <div id="card">
             <card-comp v-for ="friend in friendsData()" :key="friend">
                 <template #console>
-                    <h1>Name: {{friend.profile}}</h1>
-                    <p>Manufacturer: {{friend.firstName}}</p>
-                    <p>Release Year: {{friend.lastName}}</p>
-                    <p>Best selling game: {{friend.gender}}</p>
-                    <p>Price: R{{friend.contactDetails}}</p>
+                    <h1>Profile Name: {{friend.profile}}</h1>
+                    <p>Name: {{friend.firstName}}</p>
+                    <p>Surname: {{friend.lastName}}</p>
+                    <p>Gender: {{friend.gender}}</p>
+                    <p>Tele. Number: {{friend.contactDetails}}</p>
                     <hr>
                 </template>
             </card-comp>   
