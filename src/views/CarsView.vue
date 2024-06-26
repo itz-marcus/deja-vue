@@ -12,7 +12,6 @@
                         <hr>
                     </div> 
                 </template>
-               
             </card-comp>  
         </div>    
     </div>
